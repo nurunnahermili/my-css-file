@@ -1,0 +1,178 @@
+*{
+margin: 0;
+padding: 0;
+
+}
+
+.main{
+width: 900px;
+border: 1px solid;
+margin: auto;
+}
+.head{
+
+
+}
+.head ul{
+text-align: center;
+padding: 15px;
+
+}
+.head ul li{
+display: inline-block;
+margin: 5px;
+}
+.head ul li a{
+background: #48DBFB;
+color: #000;
+text-decoration: none;
+padding: 10px 10px;
+border-radius: 2px;
+position: relative;
+z-index: 1;
+display: inline-block;
+}
+.head ul li a::after{
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+width: 0;
+height: 100%;
+background: #fff;
+color: #48DBFB !important; 
+
+z-index: -1;
+border-radius: 2px;
+border-bottom: 1px solid #000;
+}
+
+.head ul li a:hover::after{
+width: 100%;
+
+}
+
+
+
+  /* banner */
+
+.banner{
+background: #48DBFB;
+padding: 60px 0;
+text-align: center;
+}
+
+.banner p{
+color: #fff;
+font-size: 14px;
+margin-bottom: 15px;
+}
+.banner h1{
+color: #fff;
+font-size: 40px;
+}
+.banner a{
+background: #fff;
+color: #585e5f;
+display: inline-block;
+text-decoration: none;
+padding: 15px;
+font-size: 20px;
+margin-top: 20px;
+border-radius: 5px;
+position: relative;
+z-index: 1;
+}
+.banner a::after{
+ content: "";
+ position: absolute; 
+top: 0;
+left: 0;
+width: 0;
+height: 100%;
+background:#000;
+z-index: -1;
+transition: .4s;
+border-radius: 5px;
+color: #fff;
+} 
+.banner a:hover::after{
+
+ width: 100%;
+
+ } 
+
+.about{
+background: #fff;
+padding: 55px;
+color: #48484B;
+position: relative;
+margin-bottom: 2px;
+
+}
+.about h3{
+text-align: center;
+font-size: 30px;
+color: black;
+font-weight: 400;
+margin-bottom: 10px;
+line-height: 1em;
+}
+.about p{
+font-size: 16px;
+text-align: center;
+}
+
+.common{
+  width: 60px;
+  height: 30px;
+  background: #000;
+  color: #fff;
+  text-align: center;
+
+}
+.step1{
+position: relative;
+top: 235px; 
+left:270px;
+position: absolute;
+transform: rotate(-30deg);
+}
+.step1:hover{
+  background: #48DBFB;
+  transform: rotate(0deg) scale(1.4);
+  transition: .4s;
+}
+
+.step2{
+position: absolute;
+top: 240px; 
+left:450px;
+}
+.step2:hover{
+  background: #48DBFB;
+  transform: rotate(0deg) scale(1.4);
+  transition: .4s;
+}
+
+
+.step3{
+position: absolute;
+top: 235px; 
+left:620px;
+transform: rotate(30deg);
+}
+.step3:hover{
+  background: #48DBFB;
+  transform: rotate(0deg) scale(1.4);
+  transition: .4s;
+}
+.foot{
+background: rgb(37, 35, 35);
+color: #fff;
+text-align: center;
+padding: 10px;
+
+
+}
+
